@@ -10,7 +10,7 @@ public class LocationHelper {
         float[] result = new float[0];
         Location.distanceBetween(startLatitude, startLongitude, endLatitude, endLongitude, result);
 
-        return result[0] / 1000;
+        return 1000;
     }
 
 }
